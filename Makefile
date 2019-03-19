@@ -1,5 +1,7 @@
 .PHONY: cp27 cp34 cp35 cp36 cp37 pp27 pp35
 
+export PIPENV_VENV_IN_PROJECT=1
+
 cp27:
 	cd cp27 && $(MAKE) init
 

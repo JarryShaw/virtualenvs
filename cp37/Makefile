@@ -1,5 +1,7 @@
 .PHONY: init remove update
 
+export PIPENV_VENV_IN_PROJECT=1
+
 init:
 	pipenv --python /usr/local/opt/python/bin/python3.7
 	pipenv install --dev \
