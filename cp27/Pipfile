@@ -4,9 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+homebrew-pypi-poet = "*"
 
 [packages]
-homebrew-pypi-poet = "*"
 
 [requires]
 python_version = "2.7"

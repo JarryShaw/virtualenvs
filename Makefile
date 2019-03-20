@@ -1,4 +1,4 @@
-.PHONY: cp27 cp34 cp35 cp36 cp37 pp27 pp35
+.PHONY: cp27 cp34 cp35 cp36 cp37 pp27 pp36
 
 export PIPENV_VENV_IN_PROJECT=1
 
@@ -20,10 +20,10 @@ cp37:
 pp27:
 	cd pp27 && $(MAKE) init
 
-pp35:
-	cd pp35 && $(MAKE) init
+pp36:
+	cd pp36 && $(MAKE) init
 
-init: cp27 cp34 cp35 cp36 cp37 pp27 pp35
+init: cp27 cp34 cp35 cp36 cp37 pp27 pp36
 
 update:
 	cd cp27 && $(MAKE) update
@@ -32,7 +32,7 @@ update:
 	cd cp36 && $(MAKE) update
 	cd cp37 && $(MAKE) update
 	cd pp27 && $(MAKE) update
-	cd pp35 && $(MAKE) update
+	cd pp36 && $(MAKE) update
 
 remove:
 	cd cp27 && $(MAKE) remove || true
@@ -41,4 +41,4 @@ remove:
 	cd cp36 && $(MAKE) remove || true
 	cd cp37 && $(MAKE) remove || true
 	cd pp27 && $(MAKE) remove || true
-	cd pp35 && $(MAKE) remove || true
+	cd pp36 && $(MAKE) remove || true

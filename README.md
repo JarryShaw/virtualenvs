@@ -10,5 +10,5 @@
 
 ## PyPy
 
-- [PyPy 2.7](pypy27): `/usr/local/opt/pypy/bin/pypy` (installed through [Homebrew](https://brew.sh))
-- [PyPy 3.5](pypy35): `/usr/local/opt/pypy3/bin/pypy3` (installed through [Homebrew](https://brew.sh))
+- [PyPy 2.7](pp27): `/usr/local/opt/pypy/bin/pypy` (installed through [Homebrew](https://brew.sh))
+- [PyPy 3.6](pp36): `/usr/local/opt/pypy3/bin/pypy3` (installed through [Homebrew](https://brew.sh))
